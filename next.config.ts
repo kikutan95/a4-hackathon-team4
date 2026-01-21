@@ -9,12 +9,6 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  experimental: {
-     // @ts-expect-error: Turbopack root is experimental
-    turbo: {
-      root: __dirname,
-    },
-  },
 };
 
 export default nextConfig;
